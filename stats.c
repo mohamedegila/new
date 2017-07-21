@@ -20,7 +20,7 @@
 #define SIZE (40)
 #defin S (5)
 #define A 0
-#defin B 1
+#define B 1
 void main() {
 #if A
   unsigned char test[SIZE] = { 34, 201, 190, 154,   8, 194,   2,   6,
