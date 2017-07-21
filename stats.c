@@ -1,11 +1,5 @@
 /******************************************************************************
- * Copyright (C) 2017 by Alex Fosdick - University of Colorado
- *
- * Redistribution, modification or use of this software in source or binary
- * forms is permitted as long as the files maintain this copyright. Users are 
- * permitted to modify this and use it to learn about the field of embedded
- * software. Alex Fosdick and the University of Colorado are not liable for any
- * misuse of this material. 
+ * Copyright (C) 2017 by Mohammed Egia 
  *
  *****************************************************************************/
 /**
@@ -13,7 +7,7 @@
  * @brief This is a simple application that performs statistical analytics on adataset
  *
  * @author Mohammed Egila
- * @date 21/7/2017
+ * @date 22/7/2017
  *
  */
 
@@ -24,9 +18,11 @@
 
 /* Size of the Data Set */
 #define SIZE (40)
-
+#defin S (5)
+#define A 0
+#defin B 1
 void main() {
-
+#if A
   unsigned char test[SIZE] = { 34, 201, 190, 154,   8, 194,   2,   6,
                               114, 88,   45,  76, 123,  87,  25,  23,
                               200, 122, 150, 90,   92,  87, 177, 244,
@@ -35,7 +31,10 @@ void main() {
 
   /* Other Variable Declarations Go Here */
   /* Statistics and Printing Functions Go Here */
- 
+#endif
+#if B
+char test[S] = {3,55,7,8,9}
+#endif 
 
 }
 
